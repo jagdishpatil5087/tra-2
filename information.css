@@ -1,0 +1,561 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+} 
+
+
+
+
+.center{
+    width: 50%; 
+    /* height: 700px;  */
+    margin: auto; 
+    padding: 10px;
+     border: 2px solid red   ;
+} 
+
+.resume{
+    padding: 5px;
+    padding-right: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: right;
+    color: white;
+     background-color: rgb(77, 77, 255); 
+}
+
+.name-conter{
+     border: 2px solid rgb(89, 0, 255); 
+    /* height: 100px; */
+    display: flex;
+    padding: 20px;
+}
+
+.name{
+    /* border: 2px solid rgb(0, 255, 21);   */
+    /* height: 50px; */
+    width: 60%;
+    font-size: 30px;
+    display: flex;
+
+    border: 2px solid gold ;
+    
+
+}
+.name-b{
+    margin-left: 10px;
+    border-bottom: 5px solid rgb(0, 255, 255);
+    height: 35px;
+    margin-top: 50px;
+}
+
+.name-e{
+    /* border: 2px solid rgb(89, 0, 255);  */
+    /* height: 50px; */
+    width: 40%;
+    text-align: right;
+    border: 2px solid rgb(255, 0, 170) ;
+
+
+}
+
+.name-p{
+    padding: 5px;
+}
+
+.line{
+    margin: auto;
+    width: 80%;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.box-main{
+    margin-top: 30px;
+}
+
+.EDUCATION{
+    margin-top: 30px;
+    display: flex;
+     border: 3px solid rgb(0, 0, 0) ; 
+
+}
+
+.EDUCATION-mt{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+     /* border: 2px solid rgb(4, 255, 0) ;  */
+
+}
+.EDUCATION-t{
+    padding-left: 10px;
+}
+
+.name-left{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(84, 84, 84);
+    margin: 20px;
+}
+
+.box-l{
+    width: 35%;
+ /* border: 2px solid rgb(255, 0, 204) ;  */
+    
+}
+
+.box-r{
+    width: 65%;
+    /* border: 2px solid rgb(0, 255, 38) ;  */
+    
+}
+
+.box-skills{
+     /* border: 2px solid black ;   */
+    font-size: 18px;
+    font-weight: bold;
+    width: 60%;
+    /* height: 300px; */
+    display: flex;
+}
+
+.box-skills-l{
+    width: 45%;
+    /* border: 2px solid black ;  */
+    margin-left: 10px;
+}
+
+.box-skills-r{
+    width: 45%;
+    /* border: 2px solid black ;  */
+    margin-left: 20px;
+}
+
+
+
+.skills_name{
+    margin-top: 20px;
+    /* border: 2px solid rgb(255, 0, 0) ;   */
+    height: 25px;
+
+}
+
+
+.ok{
+    border: 5px solid rgb(0, 255, 0) ;
+    height: 50px;
+    width: 50px;
+    border-bottom:5px solid rgb(0, 255, 0) ;
+    color: yellow;
+}
+
+.center_dow_but{
+    /* border: 2px solid red ; */
+    width: 250px; 
+    margin: auto;
+}
+
+.dow_but{
+    background-color: rgb(75, 75, 75);
+    height: 70px;
+    margin-top:50px ;
+}
+
+#download{
+    padding: 10px;
+    font-size: 25px;
+    width: 250px;
+    margin-top:7px;
+    background-color:#f40000;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#download:hover{
+    color: white;
+    border: 3px solid white ;
+    /* border-bottom: 5px solid rgb(255, 0, 0) ; */
+    cursor: pointer;
+}
+
+.spcea{
+    height: 200px;
+}
+
+.edit_div{
+    width: 70px;
+    padding: 5px;
+}
+.edit_but{
+    background-color: rgb(77, 77, 255);
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+
+
+
+
+ a{
+    text-decoration: none;
+    color: white;
+} 
+
+
+
+/* .fill_information{
+
+    border: 2px solid black; 
+    height: 750px;
+
+} */
+
+/* .fill_work_information{
+
+    height: 850px;
+    border: 2px solid black;
+
+} */
+
+.in-center{
+
+     border: 2px solid rgb(34, 0, 253); 
+    /* height: 450px; */
+    width:60% ;
+     min-width: 700px; 
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+
+}
+
+.fill_information_text{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(77, 77, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+
+}
+
+.img_but_center{
+    height: 20px;
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.choose-img{
+    margin-left: 70px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.in_mainbox{
+    width: 90%;
+    /* min-width: 900px; */
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+/* 
+    border: 2px solid rgb(255, 60, 0) ; */
+
+
+}
+
+.in_mainbox-l{
+    width: 40%;
+    padding: 30px;
+
+    /* border: 2px solid red ; */
+
+}
+.in_mainbox-r{
+    width: 50%;
+
+    /* border: 2px solid rgb(34, 255, 0) ; */
+
+}
+
+.in-input{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70%;
+    height: 25px;
+    
+}
+
+.c-submit{
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(77, 77, 255);
+    border: none;
+    color: white;
+    /* margin-top: 25px; */
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-left: 140px; */
+     padding: 5px; 
+}
+
+.Start-date{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70%;
+    /* height: 25px; */
+    display: flex;
+}
+
+.s-date{
+    width: 50%;
+}
+
+.l-date{
+    width: 50%;
+    margin-left: 30px;
+}
+.no{
+    margin-top: 10px;
+    height: 30px;
+    width: 140px;
+}
+
+.xii_c{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70%;
+    height: 30px;
+
+}
+
+.p-Description{
+    padding: 5px;
+    margin-left: 45px;
+    font-size: 17px;
+    border: 2px solid rgb(116, 116, 116) ;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.c-Description{
+    height: 200px;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* .fill_information_Description{
+
+} */
+
+.skills-center{
+    text-align: center;
+    margin-left: 40px;
+}
+
+#my-t1-Start_date{
+    margin-top: 5px;
+    height: 25px;
+    width: 125px;
+}
+
+#my-t1-end_date{
+    margin-top: 5px;
+    height: 25px;
+    width: 125px;
+}
+
+.tip-Description{
+    /* width: %; */
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.li-top-m{
+    margin-top: 5px;
+}
+
+.link-Description{
+   margin-left: 50px;
+   margin-bottom: 20px;
+}
+
+.p-link-input{
+    width: 83%;
+    height: 30px;
+}
+
+.t-Description{
+    width: 90%;
+    margin: auto;
+    font-size: 17px;
+}
+
+.por-Description{
+    margin-top: 50px;
+    background-color: rgb(245, 245, 245);
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.work-Description{
+    height: 100px;
+    margin: auto;
+    width: 88%;
+}
+
+.add-work-Description{
+    height: 220px;
+    width: 88%;
+    margin: auto;
+}
+
+.center_submit_but{
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    padding: 15px;
+    width: 130px;
+    margin: auto;
+}
+
+.c-submit:hover{
+    background-color: rgb(0, 181, 0);
+    border: 2px solid white;
+
+}
+
+.nav_button{
+    /* border: 2px solid black;  */
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    border-top: 2px solid rgb(77, 77, 255);
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.nav_button-center{
+    /* border: 2px solid black; */
+    height: 50px;
+    margin: auto;
+    
+}
+
+.nav_but{
+    width: 80px;
+    padding: 5px;
+    margin-top: 5px; 
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 255);
+    border: none;
+    color: white;
+}
+
+#back_fill_information:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+#skip_fill_information:hover{
+    background-color: 	#FFEA00;
+    cursor: pointer;
+}
+
+#next_fill_information:hover{
+    background-color: rgb(0, 192, 0);
+    cursor: pointer;
+}
+
+/* .link_div{
+    color: black;
+    border: 2px solid black;
+    height: 10px;
+} */
+
+
+
+
+@media screen and (max-width: 800px) and (min-width: 0px) {
+
+
+    .in-center{
+        border: 2px solid rgb(255, 0, 0) ;
+        min-width: 1px;
+        width: 100%;
+    }
+
+    
+
+    .in_mainbox{
+        flex-wrap: wrap;
+        width: 100%;
+        border: 2px solid blue ;
+    }
+
+    .in_mainbox-l{
+
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .in_mainbox-r{
+
+        width: 100%;
+        margin: auto;
+        padding-left: 10px;
+
+    }
+
+    .nav_button{
+        width: 100%;
+
+    }
+
+    .center{
+        width: 100%;
+
+    }
+
+    .name-conter{
+        flex-wrap: wrap;
+
+        border: 2px solid orchid;
+
+    }
+
+    .name{
+        width: 100%;
+    }
+
+    .name-e{
+        width: 100%;
+    }
+
+}
+
+
